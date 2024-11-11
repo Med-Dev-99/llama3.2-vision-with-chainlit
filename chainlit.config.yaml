@@ -1,0 +1,23 @@
+chainlit_server:
+  cors:
+    allowed_origins: ["*"]
+  timeout: 120  # Increased server timeout
+
+chat_profiles:
+  default:
+    name: Image Analysis Bot
+    temperature: 0.7
+    max_tokens: 500
+
+ui:
+  name: Image Analysis ChatBot
+  description: Upload images for AI analysis
+  hide_cot: false
+  default_collapse_content: false
+  default_expand_messages: true
+
+features:
+  speech_to_text: false
+  vision: true
+  unsafe_allow_html: false
+  server_side_streaming: false  # Disable streaming for better stability
