@@ -1,1 +1,3 @@
 ollama_chainlit/
+.chainlit/
+__pycache__/
