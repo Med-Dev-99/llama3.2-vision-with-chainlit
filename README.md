@@ -41,8 +41,8 @@ The goal of this project is to use the `ollama` language model to analyze and de
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-repo-name/image-analysis-chainlit.git
-   cd image-analysis-chainlit
+   git clone https://github.com/Med-Dev-99/llama3.2-vision-with-chainlit.git
+   cd llama3.2-vision-with-chainlit
    ```
 
 2. **Install dependencies**:
